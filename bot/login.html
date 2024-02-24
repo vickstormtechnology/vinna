@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/x-icon" />
+    <title>Vinna (Bot) | Login</title>
+    <link rel="apple-touch-icon" href="assets/images/logo/favicon.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="msapplication-TileImage" content="assets/images/logo/favicon.png" />
+
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+
+    <!-- iconsax css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/iconsax.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" id="rtl-link" type="text/css" href="assets/css/vendors/bootstrap.min.css" />
+    <!-- Theme css -->
+    <link rel="stylesheet" id="change-link" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body class="auth-body" >
+    <!-- login section start -->
+    <div class="auth-img" style="margin-top: -120px;">
+      <img class="img-fluid auth-bg" src="assets/images/background/auth_bg.jpg" alt="auth_bg" />
+      <div class="auth-content">
+        <div>
+          <h2>Hello Again!</h2>
+          <h4 class="p-0">Welcome back, You have been missed!</h4>
+        </div>
+      </div>
+    </div>
+
+    <form class="auth-form" target="_blank">
+      <div class="custom-container">
+          <p id="msg1"></p>
+        <div class="form-group">
+          <label class="form-label">Username</label>
+          <div class="form-input mb-4">
+            <input style="color: white;" type="text" class="form-control username" placeholder="Enter Your Username" />
+            <i class="iconsax icons" data-icon="user-1"></i>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Access Key</label>
+          <div class="form-input">
+            <input style="color: white;" type="password" class="form-control access_key" placeholder="Enter Your Access Key" />
+            <i class="iconsax icons" data-icon="key"></i>
+          </div>
+        </div>
+        <div class="option mt-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">Remember me</label>
+          </div>
+          <a class="forgot" href="forgot-password.html">Forgot password?</a>
+        </div>
+
+        <div class="submit-btn">
+          <a href="javascript:void(0);" class="login_btn btn auth-btn w-100">Sign In</a>
+        </div>
+
+
+        <h4 class="signup">Don’t have an account ?<a href="create-account.html"> Sign up</a></h4>
+        <h4 class="signup" style="margin-top: -30px;">Need help?<a href="help.html"> Click here!</a></h4>
+      </div>
+    </form>
+    <!-- login section end-->
+
+    <!-- iconsax js -->
+    <script src="assets/js/jquery.2.2.3.min.js"></script>
+
+    <script src="scripts/login.js"></script>
+    <script src="assets/js/iconsax.js"></script>
+
+    <!-- bootstrap js -->
+<!--    <script src="assets/js/bootstrap.bundle.min.js"></script>-->
+
+    <!-- script js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

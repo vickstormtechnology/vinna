@@ -1,0 +1,50 @@
+{
+   "name": "Vinna (BOT)",
+   "version": "1.0.1",
+   "description": "Vinna is an AI betting assistant. Intelligent and smart bots never loose a game.",
+   "manifest_version": 3,
+   "author": "Vickstorm Technology",
+   "host_permissions": ["<all_urls>"],
+   "icons": {
+      "16": "assets/images/logo/favicon.png",
+      "48": "assets/images/logo/favicon.png",
+      "128": "assets/images/logo/favicon.png"
+   },
+   "background":{
+      "service_worker": "scripts/background.js",
+      "persistence": true
+   },
+   "content_scripts": [
+      {
+         "matches": ["<all_urls>"],
+         "css": ["assets/css/hide.css"],
+         "js": ["assets/js/jquery.2.2.3.min.js","scripts/content_script.js"],
+         "all_frames": true,
+         "run_at": "document_start"
+      }
+   ],
+   "minimum_chrome_version": "101",
+   "web_accessible_resources": [
+      {
+         "resources": ["*"],
+         "matches": ["https://*/*"],
+         "extension_ids": []
+      }
+   ],
+   "action": {
+      "default_icon": "assets/images/logo/favicon.png",
+      "default_popup": "index.html",
+      "default_title": "Vinna (BOT) betting assistant"
+   },
+   "permissions": [
+      "activeTab",
+      "storage",
+      "scripting",
+      "tabs",
+      "clipboardWrite",
+      "notifications",
+      "contextMenus",
+      "background"
+   ]
+}
+

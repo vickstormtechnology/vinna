@@ -1,0 +1,11 @@
+{
+  "botName": "Vinna (BOT)",
+  "siteLink": "http://localhost/vinna",
+  "API_URL": "http://localhost/vinna/api",
+  "emailHost": "mail.trustfinanciers.com",
+  "emailSmtpPort": "587",
+  "emailSSLTLS": "TLS",
+  "emailUsername": "mailing@trustfinanciers.com",
+  "emailPassword": "",
+  "googleEmail": "vinnabot@gmail.com"
+}

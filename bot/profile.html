@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/x-icon" />
+    <title>Vinna (BOT) | Profile</title>
+    <link rel="apple-touch-icon" href="assets/images/logo/favicon.png" />
+    <meta name="theme-color" content="#122636" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="msapplication-TileImage" content="assets/images/logo/favicon.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+
+    <!-- iconsax css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/iconsax.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" id="rtl-link" type="text/css" href="assets/css/vendors/bootstrap.min.css" />
+    <!-- Theme css -->
+    <link rel="stylesheet" id="change-link" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="profile-header section-t-space">
+      <div class="custom-container">
+        <div class="header-panel">
+          <h3>Profile</h3>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+          <div class="profile-pic mt-5">
+            <img class="img-fluid img" src="assets/images/logo/favicon.png" alt="profile" />
+          </div>
+          <div class="profile-name d-flex align-items-center justify-content-between mt-3 w-100">
+            <h4 class="theme-color"><span id="profile_username2"></span></h4>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- profile section start -->
+    <section class="section-b-space pt-0">
+      <div class="custom-container">
+        <ul class="profile-list">
+          <li>
+            <a href="javascript:void(0);" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="user-1"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Username</h4>
+                <h5 id="profile_username"></h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="inbox-1"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Email</h4>
+                <h5><span id="profile_email"></span></h5>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="javascript:void(0);" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="location"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Server Address</h4>
+                <h5>server, qE2j3301_1105</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="translate"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Default Language</h4>
+                <h5>English</h5>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="notification.html" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="bell-1"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Notification</h4>
+                <h5>Offers, Order tracking messages</h5>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="terms-conditions.html" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="info-circle"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Terms & Conditions</h4>
+                <h5>T&C for use of platform</h5>
+              </div>
+            </a>
+          </li>
+          <li class="border-bottom-0">
+            <a href="help.html" class="profile-box">
+              <div class="profile-img">
+                <i class="iconsax icon" data-icon="phone"></i>
+              </div>
+              <div class="profile-details">
+                <h4>Help</h4>
+                <h5>Customer Support, FAQs</h5>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- profile section start -->
+
+    <script src="assets/js/jquery.2.2.3.min.js"></script>
+    <script src="scripts/profile.js"></script>
+    <script src="scripts/validate_user_access.js"></script>
+    <script src="scripts/logout.js"></script>
+    <section class="panel-space"></section>
+    <!-- panel-space end -->
+
+    <!-- bottom navbar start -->
+    <div class="navbar-menu">
+      <ul>
+        <li class="active">
+          <a href="landing.html">
+            <div class="icon">
+              <img class="unactive" src="assets/images/svg/home.svg" alt="home" />
+              <img class="active" src="assets/images/svg/home-fill.svg" alt="home" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html">
+            <div class="icon">
+              <img class="unactive" src="assets/images/svg/profile.svg" alt="profile" />
+              <img class="active" src="assets/images/svg/profile-fill.svg" alt="profile" />
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="history.html">
+            <div class="icon">
+              <img class="unactive" src="assets/images/svg/Star.svg" alt="bag" />
+              <img class="active" src="assets/images/svg/Star.svg" alt="bag" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="help.html">
+            <div class="icon">
+              <img class="unactive" src="assets/images/svg/bag.svg" alt="heart" />
+              <img class="active" src="assets/images/svg/bag-fill.svg" alt="heart" />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="terms-conditions.html">
+            <div class="icon">
+              <img class="unactive" src="assets/images/svg/categories.svg" alt="categories" />
+              <img class="active" src="assets/images/svg/categories-fill.svg" alt="categories" />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- bottom navbar end -->
+    <!-- iconsax js -->
+    <script src="assets/js/iconsax.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
